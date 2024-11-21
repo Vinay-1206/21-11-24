@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>Please Register Here</h1>
+    </center>
+    <form action="./Registrationsucessfullycompletsd.html">
+        <center>
+            <label for="username">User Name : </label>
+            <input type="text" id="username" name="username" minlength="6" maxlength="12"
+                placeholder=" Please Enter Username" required pattern="[a-zA-Z]+"
+                title="minimum 6 characters and maximum 12 characters">
+            <br><br>
+            <label for="password">Password : </label>
+            <input type="text" name="password" id="password" minlength="8" maxlength="16"
+                placeholder="Please Enter Password" pattern="[a-zA-Z\d!@#$%^&*]+" required
+                title="Password must be between 8 to 10 characters with upper and lower letters with number and any special characters">
+            <br><br>
+            <label for="email">E mail adress : </label>
+            <input type="text" id="email" name="email" placeholder="Please enter your email" pattern="[a-z\d@.]+"
+                required>
+            <br><br>
+            <input type="submit" value="Register">
+        </center>
+    </form>
+</body>
+
+</html>
